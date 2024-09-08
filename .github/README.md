@@ -11,9 +11,15 @@ Releases are avalible [here](https://github.com/ELedlow-Studios/Super-ELedlow-Br
 The Wiki is available [here](https://github.com/ELedlow-Studios/Mar.V2.exe/wiki).
 
 ### - Disclamer -
-We do not own **Super Mario** and this fan creepypasta is purely fictional. All Rights of Super Mario and it's associated franchise belong to Nintendo. Only **Sam, Mark, Sarah, David, and Nick** belong to me.
+We do not own **Super Mario** and this fan creepypasta is purely fictional. 
 
 ---
+
+All Rights of Super Mario and it's associated franchise belong to Nintendo. 
+
+**Sam, Mark, Sarah, David, and Nick** belong to The Web-Breakout Team.
+
+------
 
 Super Mario World ©1986 of Nintendo.
 Mar.V2.exe created by ELedlow Studios.
