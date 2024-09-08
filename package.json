@@ -4,7 +4,12 @@
   "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to nintendo",
   "main": "public/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "neu": "cd Code-Browser && npx neu run",
+    "build": "cd Code-Browser && npx neu build",
+    "start": "cd Code-Browser/dist/Code-Browser/ && cmd /c Code-Browser-win_x64.exe",
+    "remove": "rd /s /q Code-Browser\\dist",
+    "myedit": "node rcedit.js",
+    "execute": "npm run remove && npm run build && npm run myedit && npm run start"
   },
   "keywords": [
     "javascript",
@@ -13,5 +18,8 @@
     "super-mario-bros"
   ],
   "author": "Elijah Ledlow",
-  "license": "CC-BY-NC-4.0"
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "rcedit": "^4.0.1"
+  }
 }
