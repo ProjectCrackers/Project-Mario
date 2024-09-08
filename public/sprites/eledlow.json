@@ -1,0 +1,108 @@
+{
+    "imageURL": "img/SMB1/ELedlow.png",
+
+    "frames": [
+        {
+            "name": "idle",
+            "rect": [2, 6, 16, 18]
+        },
+        {
+            "name": "duck",
+            "rect": [19, 9, 13, 16]
+        },
+        {
+            "name": "run-1",
+            "rect": [37, 6, 15, 18]
+        },
+        {
+            "name": "run-2",
+            "rect": [54, 6, 15, 18]
+        },
+        {
+            "name": "run-3",
+            "rect": [71, 7, 15, 18]
+        },
+        {
+            "name": "break",
+            "rect": [144, 5, 13, 18]
+        },
+        {
+            "name": "jump",
+            "rect": [179 , 7, 17, 18]
+        },
+        {
+            "name": "big-idle",
+            "rect": [0, 56, 19, 38]
+        },
+        {
+            "name": "big-duck",
+            "rect": [20, 56, 15, 38]
+        },
+        {
+            "name": "big-run-1",
+            "rect": [37, 56, 16, 38]
+        },
+        {
+            "name": "big-run-2",
+            "rect": [53, 56, 16, 38]
+        },
+        {
+            "name": "big-run-3",
+            "rect": [70, 56, 17, 38]
+        },
+        {
+            "name": "big-dash-1",
+            "rect": [89, 56, 16, 38]
+        },
+        {
+            "name": "big-dash-2",
+            "rect": [107, 56, 16, 38]
+        },
+        {
+            "name": "big-dash-3",
+            "rect": [123, 56, 17, 38]
+        },
+        {
+            "name": "big-break",
+            "rect": [143, 56, 17, 38]
+        },
+        {
+            "name": "big-jump",
+            "rect": [180, 56, 17, 38]
+        },
+        {
+            "name": "big-jump-down",
+            "rect": [200, 60, 17, 38]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "run",
+            "frameLen": 6,
+            "frames": [
+                "run-1",
+                "run-2",
+                "run-3"
+            ]
+        },
+        {
+            "name": "big-run",
+            "frameLen": 6,
+            "frames": [
+                "big-run-1",
+                "big-run-2",
+                "big-run-3"
+            ]
+        },
+        {
+            "name": "big-dash",
+            "frameLen": 6,
+            "frames": [
+                "big-dash-1",
+                "big-dash-2",
+                "big-dash-3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "main": {
+        "url": "./audio/music/smb-menu-85.mp3"
+    },
+    "hurry": {
+        "url": "./audio/music/hurryup.mp3"
+    }
+}

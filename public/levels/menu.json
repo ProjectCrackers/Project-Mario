@@ -1,0 +1,109 @@
+{   
+    "spriteSheet": "overworld",
+    "musicSheet": "SAM",
+    "patternSheet": "overworld-pattern",
+
+    "layers": [
+        {
+            "tiles": [
+                {   
+                    "name": "sky",
+                    "ranges": [
+                        [0, 424, 0, 60]
+                    ]
+                },
+                {   
+                    "name": "brick",
+                    "type": "brick",
+                    "ranges": [
+                        [2, 16, 1]
+                    ]
+                },
+                {   
+                    "name": "sky",
+                    "type": "ground",
+                    "ranges": [
+                        [-20, 20, 0, 300],
+                        [20, 20, 0, 100]
+                    ]
+                },
+                {   
+                    "pattern": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [0, 20, 18]
+                    ]
+                }
+            ] 
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "title-box",
+                    "ranges": [
+                        [4,6]
+                    ]
+                },
+                {
+                    "pattern": "mountain-small",
+                    "ranges": [
+                        [8,16]
+                    ]
+                },
+                {
+                    "pattern": "mountain",
+                    "ranges": [
+                        [0,15]
+                    ]
+                },
+                {
+                    "pattern": "bush-1h",
+                    "ranges": [
+                        [5,17]
+                    ]
+                },
+                {
+                    "pattern": "bush-2h",
+                    "ranges": [
+                        [12,17]
+                    ]
+                },
+                {
+                    "pattern": "small-tree",
+                    "ranges": [
+                        [16,16],
+                        [18,16],
+                        [19,16]
+                    ]
+                },
+                {
+                    "pattern": "tree",
+                    "ranges": [
+                        [11,15],
+                        [17,15]
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "entities": [
+        {
+            "name": "mario",
+            "pos": [49, 275]
+        },
+        {
+            "name": "luigi",
+            "pos": [49, 260]
+        },
+        {
+            "name": "eledlow",
+            "pos": [150, 20]
+        },
+        {
+            "name": "eledlowlegacy",
+            "pos": [207, 275],
+            "heading": -1
+        }
+    ]
+}

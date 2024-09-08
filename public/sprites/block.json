@@ -1,0 +1,12 @@
+{
+    "imageURL": "img/SMB1/OverWorld.png",
+
+    "frames": [
+        {
+            "name": "block",
+            "rect": [85, 22, 16, 16]
+        }
+    ],
+
+    "animations": []
+}

@@ -1,0 +1,6 @@
+{
+    "keys": {
+        "debug": [0,0,0,0,0,0], // replace with key
+        "auth": "string" // authorization
+    }
+}
