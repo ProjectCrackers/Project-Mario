@@ -1,0 +1,17 @@
+{
+  "name": "mar.v2.exe",
+  "version": "7.5.1-beta.4",
+  "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to nintendo",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "javascript-game",
+    "mario-game",
+    "super-mario-bros"
+  ],
+  "author": "Elijah Ledlow",
+  "license": "CC-BY-NC-4.0"
+}
