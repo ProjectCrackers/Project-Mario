@@ -10,12 +10,13 @@ Certain versions of `mar.v2.exe` (formerly known as `Super ELedlow Bros. PC Port
 | v7.5.1-beta.1   | :x:                | PC with VsCode             |
 | v7.5.1-beta.2   | :white_check_mark: | PC with VsCode             |
 | v7.5.1-beta.3   | :x:                | PC with NodeJS and VsCode  |
+| v7.5.1-beta.4   | :white_check_mark: | PC, Mac, Linux             |
 
 ## Upcoming Versions
 
 | Version         | Expected Security  | Expected Compatibility     |
 | --------------- | ------------------ | -------------------------- |
-| v7.5.1-beta.4   | :white_check_mark: | PC, Mac, Linux             |
+| v7.5.1-beta.5   | :white_check_mark: | PC, Mac, Linux             |
 
 ## Reporting a Vulnerability
 
