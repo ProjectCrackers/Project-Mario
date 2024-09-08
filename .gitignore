@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules
+
+# Distributions
+out
+dist
+
+# Environment directories
+.env
+
+# Vscode Settings
+.vscode
+
+# Unused directories and files
+.unused
+*.unused
+*.*.unused
+*.unused-file
+unused-file.*
+
+# Private files
+.private
+*.private
+DEVREADME.md
+
+# Pending directories and files
+.pending
+*.pending
+public/.pending
