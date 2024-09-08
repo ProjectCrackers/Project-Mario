@@ -27,3 +27,6 @@ DEVREADME.md
 .pending
 *.pending
 public/.pending
+
+# NeutralinoJS files
+neutralino.config.json
