@@ -38,6 +38,9 @@ export function createInputLayer(font) {
         } else if (currentHost === 'site') {
             TEXT = 'ENTER THE PLAYER NAME.';
             xTEXT = 100;
+        } else if (currentHost === 'neutralino') {
+            TEXT = 'ENTER YOUR NAME.';
+            xTEXT = 100;
         } else {
             TEXT = 'A NAME HAS ALREADY BEEN CHOSEN.';
             xTEXT = 40;
