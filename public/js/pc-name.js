@@ -1,6 +1,6 @@
 var username = '';
 username = localStorage.getItem('username');
-if (username === "null") {
+if (username === "null" || username === null) {
     username = "ILLEG@L STRING";
     localStorage.removeItem('username');
 }
