@@ -1,6 +1,6 @@
 {
   "name": "mar.v2.exe",
-  "version": "7.5.1-beta.4",
+  "version": "7.5.1-beta.5",
   "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to nintendo",
   "main": "public/index.js",
   "scripts": {
