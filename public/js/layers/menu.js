@@ -64,12 +64,11 @@ export function createMenuLayer(font, l) {
             font.print('PLAY GAME'.toUpperCase(), context, 65, LINE5);
             font.print('SETTINGS'.toUpperCase(), context, 65, LINE6);
             font.print('SOUND TEST'.toUpperCase(), context, 65, LINE7);
-            font.print('CREDITS'.toUpperCase(), context, 65, LINE8);
+            font.print('INFORMATION'.toUpperCase(), context, 65, LINE8);
         } else if (set === "charselect") {
             font.print('MARIO'.toUpperCase(), context, 65, LINE5);
             font.print('LUIGI'.toUpperCase(), context, 65, LINE6);
-            font.print('ELEDLOW THE FOX'.toUpperCase(), context, 65, LINE7);
-            font.print('LEAVE'.toUpperCase(), context, 65, LINE8);
+            font.print('LEAVE'.toUpperCase(), context, 65, LINE7);
         } else if (set === "settings") {
             if (checkGLSupport) {
                 font.print('TOGGLE CRT FILTER - WEBGL'.toUpperCase(), context, 65, LINE5);
@@ -86,12 +85,7 @@ export function createMenuLayer(font, l) {
             } else {
                 font.print('VIOLENCE - ON'.toUpperCase(), context, 65, LINE7);
             }
-            if (explicitMode) {
-                font.print('SCENES - ALL SCENES'.toUpperCase(), context, 65, LINE8);
-            } else {
-                font.print('SCENES - NECESSARY SCENES ONLY'.toUpperCase(), context, 65, LINE8);
-            }
-            font.print('LEAVE'.toUpperCase(), context, 65, LINE9);
+            font.print('LEAVE'.toUpperCase(), context, 65, LINE8);
         } else if (set === "sound-test") {
             font.print('ENTER SOUND NAME OR JSON'.toUpperCase(), context, 65, LINE5);
             font.print('LEAVE'.toUpperCase(), context, 65, LINE6);
@@ -110,11 +104,11 @@ export function createMenuLayer(font, l) {
         } else if (set === "credits") {
             font.print('- PRESS ENTER IF YOU ARE BORED -'.toUpperCase(), context, 25, LINE4 + (plus * font.size));
 
-            font.print('SUPER ELEDLOW BROS.'.toUpperCase(), context, 25, LINE8 + (plus * font.size));
+            font.print('MAR.V2.EXE.'.toUpperCase(), context, 25, LINE8 + (plus * font.size));
             font.print('BROUGHT TO YOU BY ELEDLOW THE FOX'.toUpperCase(), context, 25, LINE9 + (plus * font.size));
 
             font.print('PRODUCERS'.toUpperCase(), context, 25, LINE11 + (plus * font.size));
-            font.print('- ELEDLOW'.toUpperCase(), context, 25, LINE12 + (plus * font.size));
+            font.print('- ELEDLOW STUDIOS'.toUpperCase(), context, 25, LINE12 + (plus * font.size));
 
             font.print('PROGRAMMERS'.toUpperCase(), context, 25, LINE14 + (plus * font.size));
             font.print('- ELEDLOW'.toUpperCase(), context, 25, LINE15 + (plus * font.size));
@@ -123,7 +117,7 @@ export function createMenuLayer(font, l) {
             font.print('- ANY CONTENT IN THE SUPER MARIO'.toUpperCase(), context, 25, LINE18 + (plus * font.size));
             font.print('  FRANCHISE BELONGS TO NINTENDO ONLY'.toUpperCase(), context, 25, LINE19 + (plus * font.size));
             font.print('- ANY CONTENT IN THE ARROW THE FOX'.toUpperCase(), context, 25, LINE20 + (plus * font.size));
-            font.print('  FRANCHISE BELONGS THE MASTERCODE TEAM'.toUpperCase(), context, 25, LINE21 + (plus * font.size));
+            font.print('  FRANCHISE BELONGS TO WEB-BREAKOUT'.toUpperCase(), context, 25, LINE21 + (plus * font.size));
             font.print('  AND TO THE ELEDLOW STUDIOS TEAM'.toUpperCase(), context, 25, LINE22 + (plus * font.size));
 
             font.print('THIS PROJECT WAS CREATED WITH THE'.toUpperCase(), context, 25, LINE24 + (plus * font.size));
@@ -131,8 +125,8 @@ export function createMenuLayer(font, l) {
             
             font.print('LICENSES'.toUpperCase(), context, 25, LINE27 + (plus * font.size));
             font.print('- THIS WORK IS LICENSED UNDER THE'.toUpperCase(), context, 25, LINE28 + (plus * font.size));
-            font.print('  CC BY-NC 4.0. LICENSE DUE TO ITS'.toUpperCase(), context, 25, LINE29 + (plus * font.size));
-            font.print('  USAGE OF WEB-BREAKOUT CONTENT.'.toUpperCase(), context, 25, LINE30 + (plus * font.size));
+            font.print('  CC BY-NC 4.0 LICENSE DUE TO ITS'.toUpperCase(), context, 25, LINE29 + (plus * font.size));
+            font.print('  USAGE OF COPYRIGHTED CONTENT.'.toUpperCase(), context, 25, LINE30 + (plus * font.size));
 
             font.print('FOR MORE INFORMATION - PLEASE SEE'.toUpperCase(), context, 25, LINE32 + (plus * font.size));
             font.print('LICENSE.MD IN THE -PUBLIC- DIRECTORY'.toUpperCase(), context, 25, LINE33 + (plus * font.size));
@@ -187,7 +181,7 @@ window.addEventListener('keyup', function(event) {
 
         if (set === "main") {
             if (option === 0) {
-                maxoptions = 3;
+                maxoptions = 2;
                 option = 0;
                 set = "charselect"
             } else if (option === 1) {
@@ -209,18 +203,12 @@ window.addEventListener('keyup', function(event) {
         } else if (set === "charselect") {
             initializedMenu = false;
             if (option === 0) {
-                startGame = true;
                 option = 0;
-                selectedChar = 'Mario';
             } else if (option === 1) {
                 startGame = true;
                 option = 0;
                 selectedChar = 'Luigi';
             } else if (option === 2) {
-                startGame = true;
-                option = 0;
-                selectedChar = 'ELedlow The Fox';
-            } else if (option === 3) {
                 set = "main";
                 option = 0;
                 initializedMenu = true;
@@ -240,33 +228,11 @@ window.addEventListener('keyup', function(event) {
                 }
             } else if (option === 2) {
                 if (dimViolence) {
-                    if (!explicitMode) {
-                        alert("IN ORDER TO CONFIRM THIS, YOU MUST TURN ON EXPLICIT SCENES.")
-                        return;
-                    }
                     dimViolence = false;
                 } else {
-                    let check = confirm("WARNING! THIS MAY MAKE CERTAIN ASPECTS OF THE GAME NOT MAKE SENSE. PROCEED?");
-                    if (check) {
-                        dimViolence = true;
-                    }
+                    dimViolence = true;
                 }  
             } else if (option === 3) {
-                if (explicitMode) {
-                    let check = confirm("WARNING! THIS MAY MAKE CERTAIN ASPECTS OF THE GAME NOT MAKE SENSE. PROCEED?");
-                    let check2 = true;
-                    if (!dimViolence && check) {
-                        check2 = confirm("IN ORDER TO CONFIRM THIS, YOU MUST TURN OFF VIOLENCE. WILL YOU STILL PROCEED?");
-                    }
-                    if (check && check2) {
-                        explicitMode = false;
-                        dimViolence = true;
-                    }
-                } else {
-                    explicitMode = true;
-                    dimViolence = false;
-                }  
-            } else if (option === 4) {
                 set = "main";
                 option = 0;
             }
@@ -390,7 +356,6 @@ window.addEventListener('keyup', function(event) {
         localStorage.setItem('crtOn', crtOn);
         localStorage.setItem('mobileOn', mobileOn);
         localStorage.setItem('dimViolence', dimViolence);
-        localStorage.setItem('explicitMode', explicitMode);
     }
 
     // Otherwise, add the key pressed to the username, but only if it would not make the username longer than 10 characters

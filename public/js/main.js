@@ -44,7 +44,7 @@ window.allowCRTFilter = false;
 window.leftLock = false;
 window.rightLock = false;
 window.debug = {
-    active: false,
+    active: true,
     delay: false,
     mouse: false,
     layers: false,
@@ -70,12 +70,6 @@ if (dimViolence === null) {
 } else {
     let bool2 = dimViolence === "true";
     dimViolence = bool2;
-}
-if (explicitMode === null) {
-    window.explicitMode = true;
-} else {
-    let bool3 = explicitMode === "true";
-    explicitMode = bool3;
 }
 
 //---- Global Keys

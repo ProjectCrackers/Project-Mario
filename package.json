@@ -4,10 +4,10 @@
   "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to nintendo",
   "main": "public/index.js",
   "scripts": {
-    "neu": "cd Code-Browser && npx neu run",
-    "build": "cd Code-Browser && npx neu build",
-    "start": "cd Code-Browser/dist/Code-Browser/ && cmd /c Code-Browser-win_x64.exe",
-    "remove": "rd /s /q Code-Browser\\dist",
+    "neu": "cd Mar.V2.exe.pack && npx neu run",
+    "build": "cd Mar.V2.exe.pack && npx neu build",
+    "start": "cd Mar.V2.exe.pack/dist/Mar.V2.exe/ && cmd /c Mar.V2.exe-win_x64.exe",
+    "remove": "rd /s /q Mar.V2.exe.pack\\dist",
     "myedit": "node rcedit.js",
     "execute": "npm run remove && npm run build && npm run myedit && npm run start"
   },

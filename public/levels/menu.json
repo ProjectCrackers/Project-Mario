@@ -95,15 +95,6 @@
         {
             "name": "luigi",
             "pos": [49, 260]
-        },
-        {
-            "name": "eledlow",
-            "pos": [150, 20]
-        },
-        {
-            "name": "eledlowlegacy",
-            "pos": [207, 275],
-            "heading": -1
         }
     ]
 }

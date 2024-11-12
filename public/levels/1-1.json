@@ -28,6 +28,26 @@
         }
     ],
 
+    "events": [
+        {
+            "x>pos": [
+                {
+                    "x": [100],
+                    "event": "spriteSheet: \"overworld\""
+                }
+            ],
+            "x<pos": [
+                
+            ],
+            "y>pos": [
+                
+            ],
+            "y<pos": [
+                
+            ]
+        }
+    ],
+
     "layers": [
         {
             "tiles": [

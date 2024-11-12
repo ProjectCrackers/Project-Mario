@@ -68,7 +68,8 @@ function createLuigiFactory(sprite, audio) {
 
     return function createLuigi() {
         const luigi = new Entity();
-        luigi.name = "Mark";
+        luigi.name = "JONES";
+        luigi.anim = "";
         luigi.audio = audio;
         luigi.size.set(14, 16);
         luigi.offset.set(0, 2);

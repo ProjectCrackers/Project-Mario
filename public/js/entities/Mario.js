@@ -72,7 +72,7 @@ function createMarioFactory(sprite, audio) {
 
     return function createMario() {
         const mario = new Entity();
-        mario.name = "Sam";
+        mario.name = "";
         mario.anim = "";
         mario.audio = audio;
         mario.size.set(14, 16);

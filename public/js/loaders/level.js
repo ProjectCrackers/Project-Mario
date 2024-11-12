@@ -108,10 +108,18 @@ export async function createLevelLoader(entityFactory) {
         let timer;
         let special;
         let time;
+        let loadedEvents;
+        let events;
+        if (!levelSpec_1.events) {
+            events = [];
+        } else {
+            loadedEvents = levelSpec_1.events || [];
+            events = loadedEvents;
+        }
         if (!levelSpec_1.start) {
             x = 0;
             y = 0;
-        }else{
+        } else {
             startPos = levelSpec_1.start[0];
             x = startPos.x[0];
             y = startPos.y[0];
@@ -122,7 +130,7 @@ export async function createLevelLoader(entityFactory) {
             timer = true;
             special = "";
             time = 300;
-        }else{
+        } else {
             locks = levelSpec_1.locks[0];
             LL = locks.left;
             LR = locks.right;
@@ -140,6 +148,16 @@ export async function createLevelLoader(entityFactory) {
         level.timer = timer;
         level.special = special;
         level.music.setPlayer(musicPlayer);
+        level.ingameevents = events;
+        level.originalSpec = levelSpec_1;
+        level.originalBackgroundSprites = backgroundSprites;
+        level.originalPatterns = patterns;
+        level.originalEntityFactory = entityFactory;
+        level.originalTime = time;
+        level.setupBackgrounds = setupBackgrounds;
+        level.setupEntities = setupEntities;
+        level.setupTriggers = setupTriggers;
+        level.setupBehavior = setupBehavior;
         
         //setupCollision(levelSpec, level);
         setupBackgrounds(levelSpec_1, level, backgroundSprites, patterns);
