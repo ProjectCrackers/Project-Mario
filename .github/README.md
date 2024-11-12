@@ -6,9 +6,11 @@ Sam, a gamer, discovered Nintendo's `Super Mario World` but quickly grew bored o
 
 Shortly, he went missing with no explanation. Later on, his cousins, Mark and Sarah, went to visit his parents since Sam and David were both missing, leaving only Nick left. Nick said that Sam had played `Mar.V2.exe` before his sudden dissapearance. Since Mark and Sarah loved playing games that are associated with mysterious events, they went to find as much as they could. Mark found Sam's PC. Unlike the expirence Sam had, Mark actually saw something, something... different.
 
-Releases are avalible [here](https://github.com/ELedlow-Studios/Super-ELedlow-Bros/releases/).
+The releases are avalible [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/releases/).
 
-The Wiki is available [here](https://github.com/ELedlow-Studios/Mar.V2.exe/wiki).
+Legacy (unsafe prototype) versions are avalible [here](https://github.com/ELedlow-Studios/Super-ELedlow-Bros/releases/).
+
+The Wiki is available [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/wiki).
 
 ### - Disclamer -
 We do not own **Super Mario** and this fan creepypasta is purely fictional. 
