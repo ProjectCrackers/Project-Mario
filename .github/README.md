@@ -20,7 +20,7 @@ We do not own **Super Mario** and this fan creepypasta is purely fictional.
 All Rights of Super Mario and it's associated franchise belong to Nintendo. 
 
 **Sam, Mark, Sarah, David, and Nick** belong to The Web-Breakout Team. 
-> Upon request from me and other members of the team. The characters will be changed so that way **Sam, Mark, Sarah, David, and Nick** are no longer associated with "`Mar.V2.exe`" instead of our original game "`Perdido_Prototipo`."
+> Upon request from me and other members of the team. The characters will be changed so that way **Sam, Mark, Sarah, David, and Nick** are no longer associated with "`Mar.V2.exe`" instead of The Web-Breakout Team's original game "`Perdido_Prototipo`."
 
 ------
 
