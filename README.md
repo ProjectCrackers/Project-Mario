@@ -313,9 +313,6 @@ Now you are ready to build the application.
     ├─── README.md
     └─── LICENSE.md
     ```
-        # MSI development files
-    msi-dev/
-    ```
 8. Install [MSILid4](https://github.com/dkxce/MSILid4Exe) from Github (optional).
     ```cmd
     Mar.V2.exe.pack/
