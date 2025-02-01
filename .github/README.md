@@ -44,5 +44,5 @@ This project **was created for fun** and was created to fulfill a weird dream EL
 
 ---
 
-Super Mario World ©1990-1991 of Nintendo.
+Super Mario ©1986-2025 of Nintendo.
 Mar.V2.exe ©2022-2025 of ELedlow Studios.

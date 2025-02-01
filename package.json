@@ -1,7 +1,7 @@
 {
   "name": "mar.v2.exe",
   "version": "7.5.1-beta.5",
-  "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to nintendo",
+  "description": "'A Super Mario Bros.' fangame where something has changed changed changed changed changed changed changed changed changed... All rights of the Mario Franchise go to Nintendo",
   "main": "public/index.js",
   "scripts": {
     "neu": "cd Mar.V2.exe.pack && npx neu run",
