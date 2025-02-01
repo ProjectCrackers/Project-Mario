@@ -1,6 +1,6 @@
 # - Mario Version 2 Executing Protype Action Coding Kit -
 
-### - Information -
+### - Pages -
 
 The latest releases and builds are avalible [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/releases/).
 
@@ -8,10 +8,35 @@ Legacy (unsafe prototype) versions are avalible [here](https://github.com/ELedlo
 
 The Wiki is available [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/wiki).
 
-### - Disclamer -
+### - Information -
+
+**Cloning the Repository:**
+
+For Git:
+1. Open a terminal or command prompt.
+2. Run the following command:
+   ```bash
+   git clone https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit.git
+   cd Mario-Version-2-Executing-Protype-Action-Coding-Kit
+   ```
+3. Ensure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutralino.js.org/) installed.
+
+For GitHub Desktop:
+1. Open GitHub Desktop.
+2. Click on **File** > **Clone Repository**.
+3. In the **URL** tab (or any similar tab in your version), paste the repository URL:
+   ```
+   https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit
+   ```
+4. Click on **Clone**.
+5. Navigate to the cloned directory in GitHub Desktop.
+
+Make sure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutralino.js.org/) installed to properly build the project.
+
+### - Disclaimer -
 We do not own **Super Mario** and this is a fan project.
 
-**All Rights of Super Mario** and it's associated franchise **belong to Nintendo**.
+**All Rights of Super Mario** and its associated franchise **belong to Nintendo**.
 
 **We do not** claim the rights of Nintendo's property and **this is clearly fanmade**.
 
