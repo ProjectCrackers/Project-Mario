@@ -360,37 +360,60 @@ Each step is very important and is syntax specific on certain devices:
 2. **build**: This creates the `Mar.V2.exe.pack/` directory (unless it already exists) and builds it with Neutralino while installing the necessary binaries. This step also requires code to pull from already in the `Mar.V2.exe.pack` directory.
 
 3. **start**: This creates the `Mar.V2.exe.pack/dist/Mar.V2.exe/` directory (unless it already exists) and runs the Windows x64 build inside of it. This step requires it to have already been built, and it is for Windows systems only.
-    - To run a Linux build, you need to create a shell script to install with **sudo**. You can copy and paste this script and run it with `sudo ./install-mario.sh`:
+    - To run a Linux build, you need to create a **shell script** to install using **bash**. You can copy and paste this script and run it wuth `bash ./install-mario.sh`:
+        For users with write access:
         ```shell
         #!/bin/bash
-        cd Mar.V2.exe.pack/dist/Mar.V2.exe/
+        cd Workbench/Github/Mar.V2.exe-clone/Mar.V2.exe.pack/dist/Mar.V2.exe/
+        chmod +x Mar.V2.exe-linux_<architecture>
         ./Mar.V2.exe-linux_<architecture>
         ```
+        For users without write access, but have an administrator with them:
+        ```shell
+        #!/bin/bash
+        cd Workbench/Github/Mar.V2.exe-clone/Mar.V2.exe.pack/dist/Mar.V2.exe/
+        sudo chmod +x Mar.V2.exe-linux_<architecture>
+        sudo ./Mar.V2.exe-linux_<architecture>
+        ```
     - To run a MacOS build, follow these steps:
-      1. **Open Terminal**: Open the repository in the terminal on your Mac. Example:
+      1. **Open Terminal**: Open the repository in the terminal on your Mac:
          ```shell
-         cd Workbench/Github/Mar.V2.exe.pack-clone/
+         cd Workbench/Github/Mar.V2.exe-clone/
          ```
       2. **Build the Project**:
          ```shell
          npm run build
          ```
-      3. **Navigate to the Project Directoy**:
+      3. **Navigate to the Project Directory**:
          ```shell
-         cd Mar.V2.exe.pack/
+         cd Mar.V2.exe.pack/dist/Mar.V2.exe/
          ```
-      4. **Sign the Application**: Ensure you have a developer certificate from Apple. The `codesign` tool, which is used for signing applications, is included with macOS as part of the developer tools. You can use it directly from the terminal:
+      4. **Rename the Application**: Change the MacOS build name from `Mar.V2.exe-mac_<architecture>` to simply `Mar.V2.app`
+      5. **Make the Application Executable**:
          ```shell
-         codesign --deep --force --verify --verbose --sign "Developer ID Application: Your Name (YourID)" dist/Mar.V2.exe/Mar.V2.exe-mac_<architecture>
+         chmod +x Mar.V2.app
          ```
-      5. **Create a Disk Image for Distribution**: The `hdiutil` tool, used for creating and manipulating disk images, is also included with macOS. Create a disk image to distribute the application:
+      6. **Attempt to Run the Application**: This should result in an error unless you have a homebrewed version of MacOS.
          ```shell
-         hdiutil create -volname Mar.V2 -srcfolder dist/Mar.V2.exe/Mar.V2.exe-mac_<architecture> -ov -format UDZO Mar.V2.exe.dmg
+         open ./Mar.V2.app
          ```
-      6. **Verify the Disk Image**: Ensure the disk image is properly created and ready for distribution:
+      7. **Override Gatekeeper**: Open the `Security & Privacy` settings in `System Preferences`.
+         - Open `General`.
+         - You should see a message about Mar.V2.app, most likely saying **"The developer of Mar.V2 is not trusted."** in red letters.
+         - Click **"Run Anyway"** and enter your administrator password (unless it doesn't prompt you to).
+      8. **Run the Application Again**:
+         ```shell
+         open ./Mar.V2.app
+         ```
+      9. **Create a Disk Image for Distribution**: This is optional, but is recommended if you plan to distribute to others:
+         ```shell
+         hdiutil create -volname "Mar.V2" -srcfolder dist/Mar.V2.exe/Mar.V2.app -ov -format UDZO Mar.V2.dmg
+         ```
+      10. **Verify the Disk Image**: Ensure the disk image is properly created and ready for distribution:
          ```shell
          hdiutil verify Mar.V2.exe.dmg
          ```
+      11. **Include a README.txt**: Make sure to tell your audience how to overriede Gatekeeper and install this app.
 
 4. **remove**: This step deletes the distributions. This is because the **build** step will refuse to work if there are already builds inside the distribution directory.
 
