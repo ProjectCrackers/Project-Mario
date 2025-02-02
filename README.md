@@ -127,13 +127,13 @@ This will take a while, but patience is key.
     This file contains all the information for npm and node to run properly:
     - The **"name"** is the name of the package or the application.
     - The **"version"** (e.g., "7.5.0") is the version state of the application, which helps keep track of updates.
-    - The **"description"** is the description of the package if it was uploaded to [NPM](https://npmjs.com/) or any similar site.
-    - The **"main"** is the file that the package indexes when it is uploaded to [NPM](https://npmjs.com/) so that way it has a referral. However, there is no main file in this repository as there is no need for it.
+    - The **"description"** is the description of the package if it was uploaded to [**NPM**](https://npmjs.com/) or any similar site.
+    - The **"main"** is the file that the package indexes when it is uploaded to **NPM** so that way it has a referral. However, there is no main file in this repository as there is no need for it.
     - The **"scripts"** (e.g., `"test": "echo \"Error: No test specified.\"",`) are the scripts you can run via command-line in a tool like PowerShell.
-    - The **"keywords"** are the key terms that [NPM](https://npmjs.com/) uses when people try to search for your package or are trying to install it.
+    - The **"keywords"** are the key terms that **NPM** uses when people try to search for your package or are trying to install it.
     - The **"author"** (e.g., "John Doe") is the name of the person (or team) who created and contributed to this repository.
     - The **"license"** ("CC-BY-NC-4.0") is what tells people what they can and cannot do in your code. The repository is licensed under **"CC-BY-NC-4.0"**, which stands for Creative Commons Attribution-NonCommercial 4.0 International. This license allows others to share and adapt the work as long as they give appropriate credit and do not use it for commercial purposes.
-    - The **"dependencies"** directory is created by NPM when you install certain packages. It is not recommended to change these unless you know what you are doing.
+    - The **"dependencies"** directory is created by **NPM** when you install certain packages. It is not recommended to change these unless you know what you are doing.
 
 Now that you know what to do, **start programming.**
 
