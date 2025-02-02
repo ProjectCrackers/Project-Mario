@@ -313,28 +313,6 @@ Now you are ready to build the application.
     ├─── README.md
     └─── LICENSE.md
     ```
-8. Install [MSILid4](https://github.com/dkxce/MSILid4Exe) from Github (optional).
-    ```cmd
-    Mar.V2.exe.pack/
-    ├─── .github/
-    │   └─── FUNDING.yml
-    ├─── bin/
-    ├─── dist/
-    ├─── LICENSES/
-    │   ├─── NEU-LICENSE
-    │   ├─── MAR.V2.EXE-LICENSE.md
-    │   └─── YOUR-LICENSE.text
-    ├─── msi-dev/
-    │   ├─── MSILid4Exe.cmd
-    │   ├─── MSILid4Exe.exe
-    │   ├─── MSILid4Exe.log
-    │   └─── MSILid4Exe.xml
-    ├─── public/
-    ├─── .gitignore
-    ├─── neutralino.config.json
-    ├─── README.md
-    └─── LICENSE.md
-    ```
     - **Note:** An installer script that is an executable needs to be created for the Windows build first for the best experience. It's also possible to generate an MSI directly from a Windows x64 build, although my MSI builds are untested and might have major issues.
 9. Create a `Mar.V2.exe/` directory within `dist/`.
     ```cmd
