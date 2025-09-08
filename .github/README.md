@@ -2,11 +2,9 @@
 
 ### - Pages -
 
-The latest releases and builds are avalible [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/releases/).
+The latest releases and builds are avalible [here](https://github.com/ELedlow-Studios/Project-Mario/releases/).
 
-Legacy (unsafe prototype) versions are avalible [here](https://github.com/ELedlow-Studios/Super-ELedlow-Bros/releases/).
-
-The Wiki is available [here](https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit/wiki).
+The Wiki is available [here](https://github.com/ELedlow-Studios/Project-Mario/wiki).
 
 ### - Information -
 
@@ -16,8 +14,8 @@ For Git:
 1. Open a terminal or command prompt.
 2. Run the following command:
    ```bash
-   git clone https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit.git
-   cd Mario-Version-2-Executing-Protype-Action-Coding-Kit
+   git clone https://github.com/ELedlow-Studios/Project-Mario.git
+   cd Project-Mario
    ```
 3. Ensure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutralino.js.org/) installed.
 
@@ -26,7 +24,7 @@ For GitHub Desktop:
 2. Click on **File** > **Clone Repository**.
 3. In the **URL** tab (or any similar tab in your version), paste the repository URL:
    ```
-   https://github.com/ELedlow-Studios/Mario-Version-2-Executing-Protype-Action-Coding-Kit
+   https://github.com/ELedlow-Studios/Project-Mario
    ```
 4. Click on **Clone**.
 5. Navigate to the cloned directory in GitHub Desktop.
