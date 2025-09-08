@@ -18,7 +18,7 @@
     "super-mario-bros"
   ],
   "author": "Elijah Ledlow",
-  "license": "CC-BY-NC-4.0",
+  "license": "JSON",
   "dependencies": {
     "rcedit": "^4.0.1"
   }
