@@ -51,4 +51,4 @@ This project's source code is licensed under **JSON**,, which is a SPDX-recogniz
 ---
 
 Super Mario Bros. ©1986 of **Nintendo**.<br>
-Project Crackers is a fan project and **we do not own the rights to it.**
+Project Mario is a fan project and **we do not own the rights to it.**
