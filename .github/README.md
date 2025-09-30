@@ -1,46 +1,47 @@
-# - Project Mario -
+# Project Mario
 
-### - Pages -
+### Disclaimer
+**We do not own Super Mario and should be not treated as such as this is a FAN project**. **All Rights of Super Mario** and its associated franchise **belong to Nintendo, NOT US**!
 
-The latest releases and builds are avalible [here](https://github.com/ELedlow-Studios/Project-Mario/releases/).
+**We do not** claim the rights of Nintendo's property and **this is clearly fanmade**. **We do not intend to challenge Nintendo** as this was made in love of their creation, **not in theft.**
 
-The Wiki is available [here](https://github.com/ELedlow-Studios/Project-Mario/wiki).
+This project **was created for fun** and was created to fulfill a strange dream the creator of the creepypasta had.
 
-### - Information -
+
+### Documentation and Builds
+
+The latest releases and builds are avalible [here](https://github.com/ProjectCrackers/Project-Mario/releases/).
+
+The project wiki is available [here at it's wiki page](https://github.com/ProjectCrackers/Project-Mario/wiki).
+
+### Information
 
 **Cloning the Repository:**
 
 For Git:
 1. Open a terminal or command prompt.
-2. Run the following command:
+2. Install [**Git** if you haven't already](https://git-scm.com/downloads)
+3. Run the following command once you've opened the appropriate directory:
    ```bash
-   git clone https://github.com/ELedlow-Studios/Project-Mario.git
+   git clone https://github.com/ProjectCrackers/Project-Mario.git
    cd Project-Mario
    ```
-3. Ensure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutralino.js.org/) installed.
+4. Ensure you have [**NodeJS**](https://nodejs.org/) and [**Neutralino**](https://neutralino.js.org/) installed to properly build the project.
 
-For GitHub Desktop:
-1. Open GitHub Desktop.
-2. Click on **File** > **Clone Repository**.
-3. In the **URL** tab (or any similar tab in your version), paste the repository URL:
+For GitHub Desktop (easiest option):
+1. Install [**Github Desktop** if you haven't already](https://github.com/apps/desktop)
+2. Open GitHub Desktop.
+3. Click on **File** > **Clone Repository**.
+4. In the **URL** tab (or any similar tab in your version), paste the repository URL:
    ```
-   https://github.com/ELedlow-Studios/Project-Mario
+   https://github.com/ProjectCrackers/Project-Mario
    ```
-4. Click on **Clone**.
-5. Navigate to the cloned directory in GitHub Desktop.
+5. Click on **Clone**.
+6. Navigate to the cloned directory in GitHub Desktop.
 
 Make sure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutralino.js.org/) installed to properly build the project.
 
-### - Disclaimer -
-We do not own **Super Mario** and this is a fan project.
-
-**All Rights of Super Mario** and its associated franchise **belong to Nintendo**.
-
-**We do not** claim the rights of Nintendo's property and **this is clearly fanmade**.
-
-This project **was created for fun** and was created to fulfill a weird dream ELedlow had.
-
 ---
 
-Super Mario ©1986-2025 of Nintendo.
-Mar.V2.exe ©2022-2025 of ELedlow Studios.
+Super Mario Bros. ©1986 of **Nintendo**.<br>
+Project Crackers is a fan project and **we do not own the rights to it.**
