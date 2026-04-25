@@ -42,11 +42,10 @@ Make sure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutra
 
 ### Project License:
 
-This project's source code is licensed under **JSON**,, which is a SPDX-recognized license. However, despite this, there are some things you must keep in mind.
-1. **Nintendo owns Mario**: To clarify **this project's code** is what is licesensed under JSON, **NOT Super Mario**.
+This project's source code is licensed under a **custom non‑commercial fangame license**. However, despite this, there are some things you must keep in mind.
+1. **Nintendo owns Mario**: To clarify **this project's code** is what is licensed, **NOT Super Mario**.
 2. **We created the Project Mario creepypasta**: Although we are completely open to forks and reinterpretations and reboots, we are who decides what is cannon in the Project Crackers fan series.
-3. **Do not use this for evil**: Although the JSON license was confirmed to have included that line as a joke, **we are serious**. Do not use this project to harm any individual, contributor, creator, or Nintendo. Please be respectful as **this was made for fun**, not harm.
-
+3. **Do not use this for evil**: This project was made for fun. Do not use this project to harm any individual, contributor, creator, or Nintendo. Please be respectful as **this was made for fun**, not harm.
 
 ---
 
