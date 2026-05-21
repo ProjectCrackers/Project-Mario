@@ -1,5 +1,7 @@
 # Project Mario
 
+## ⚠️ After some recent testing, this project has been declared _unstable_. It is not recommended that this project be forked until the rework of the entire code is complete ⚠️
+
 ## Disclaimer
 **We do not own Super Mario and should be not treated as such as this is a FAN project**. **All Rights of Super Mario** and its associated franchise **belong to Nintendo, NOT US**!
 
@@ -15,7 +17,7 @@ The project wiki is available [here at it's wiki page](https://github.com/Projec
 
 ## Information
 
-### Cloning the Repository:**
+### Cloning the Repository:
 
 For Git:
 1. Open a terminal or command prompt.
