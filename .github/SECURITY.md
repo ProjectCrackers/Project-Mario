@@ -4,7 +4,7 @@
 These versions were from the first iteration of Project Mario when it was previously called **Super ELedlow Bros.**<br>
 These versions are very depreciated and probably should be left in the dust. Most of these versions were deleted due to Wix being unfair and banning me two years ago without notice and without a reason. They are now lost media (excpet to that random Chinese archiver who's been archiving since v7.5.1-alpha that I've noticed).
 
-1. The **Code.org version**: The [Code.org](https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E/edit) version was created in 2023 before I was on GitHub. The version history on the project is incorrect as it says 2025 purely because I revisited it.
+1. The **Code.org version**: The [Code.org](https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E/edit) [version](https://studio.code.org/projects/gamelab/2PL0UqU5RnaOrofoq3X6SnWM0A-KU2QvAMfVlY-Jf3E) was created in 2023 before I was on GitHub. The version history on the project is incorrect as it says 2025 purely because I revisited it.
 2. **v0.0.1 to v2.3.9**: These versions are completely unplayable as they relied on code that was only specific to that development session. They are virtually impossible to restore due to them being a modification the Turbowarp Electron runtime.
 3. **v2.5.0 and an unnamed v2.4 version**: These two for some reason are playable, but are undocumented. These are the only two secure older versions.
 4. **v2.5.9 to v6.9.9**: These were versions that were on Wix. All of them got deleted as Wix not only deleted my account but my resources that I didn't have backed up for some stupid reason.
