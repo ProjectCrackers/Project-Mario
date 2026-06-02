@@ -46,8 +46,8 @@ Make sure you have [NodeJS](https://nodejs.org/) and [Neutralino](https://neutra
 
 This project's source code is licensed under a **custom non‑commercial fangame license**. However, despite this, there are some things you must keep in mind.
 1. **Nintendo owns Mario**: To clarify **this project's code** is what is licensed, **NOT Super Mario**.
-2. **We created the Project Mario creepypasta**: Although we are completely open to forks and reinterpretations and reboots, we are who decides what is cannon in the Project Crackers fan series.
-3. **Do not use this for evil**: This project was made for fun. Do not use this project to harm any individual, contributor, creator, or Nintendo. Please be respectful as **this was made for fun**, not harm.
+2. **We created the Project Mario creepypasta**: Although we are completely open to forks and reinterpretations and reboots, we are who decides what is canon in the Project Crackers fan series.
+3. **Do not use this for harm**: This project was made for fun. PLEASE do not use this project to harm any individual, contributor, creator, or Nintendo. **This was made for fun**.
 
 ---
 
